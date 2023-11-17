@@ -1,0 +1,68 @@
+.fondoTitle{
+    height: 100%;
+    width: 100%;
+    margin-bottom: -5px;
+    
+}
+
+.title{
+    padding-top: 60px;
+}
+
+.BrInicio{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 35px;
+    padding: 15px;
+}
+
+.BtnBarraInicio{
+    text-align: left;
+    justify-content: left;
+}
+
+.Btnizq{
+    border: 0px white solid;
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.BtnBarraInicioDer{
+    cursor: pointer;
+    text-align: right;
+    justify-content: right;
+    color: white;
+}
+
+.BtnBarraInicio button:hover{
+    color: rgba(18, 212, 50, 0.788);
+}
+
+.BtnBarraInicioDer button:hover{
+    color: rgba(18, 212, 50, 0.788);
+}
+
+.Contenedor1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.IzqContenedor{
+    text-align: left;
+    font-size: 25px;
+    color: black;
+
+}
+
+.DerContenedor{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: right;
+}
